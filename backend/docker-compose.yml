@@ -67,7 +67,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - frontend:/../frontend
+      - ../frontend:/../frontend
     restart: on-failure
 
 # Mercure is installed as a Caddy module, prevent the Flex recipe from installing another service
@@ -79,6 +79,5 @@ volumes:
   caddy_data:
   caddy_config:
   db-data:
-  frontend:
 ###> symfony/mercure-bundle ###
 ###< symfony/mercure-bundle ###
