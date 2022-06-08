@@ -86,8 +86,4 @@ volumes:
   caddy_config:
   db-data:
 ###> symfony/mercure-bundle ###
-###< symfony/mercure-bundle ###
-
-###> doctrine/doctrine-bundle ###
-  db-data:
 ###< doctrine/doctrine-bundle ###
